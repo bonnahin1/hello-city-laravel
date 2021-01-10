@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello City</title>
+    <title>About Us | Hello City</title>
 
 </head>
 
 <body>
-    <h1>Hello from Quebec!</h1>
+    <p>Built with &hearts; by Bonn@hin.</p>
 
-    <p>It's curently {{ date('h:i A') }}.</p>
+    <p><a href="/">Revenir à la page d'accueil</a></p>
 
     <footer>
-        <p>&copy; Copyright {{ date('Y') }} &middot; <a href="about-us">About Us</a></p>
+        <p>&copy; Copyright {{ date('Y') }} &middot;</a></p>
     </footer>
 </body>
 
