@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('content')
 <img src="{{ asset('images/casa.png') }}" alt="casablanca Flag" class="mt-12 rounded shadow-md h-32">
@@ -7,3 +7,4 @@
 
 <p class="text-lg text-gray-800">It's curently {{ date('h:i A') }}.</p>
 @stop
+
